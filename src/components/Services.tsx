@@ -9,7 +9,7 @@ export const Services = () => {
             icon: <Scissors size={24} />,
             title: "Corte Masculino",
             description: "Corte personalizado com técnicas modernas e acabamento impecável",
-            price: "R$ 35"
+            price: "R$ 40"
         },
         {
             icon: <User size={24} />,
