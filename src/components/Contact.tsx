@@ -3,7 +3,9 @@ import { Button } from "./shared/Button";
 
 export const Contact = () => {
   return (
-    <section className="py-16 lg:py-24 bg-[#0A0A0A]">
+    <section 
+    id="contato"
+    className="py-16 lg:py-24 bg-[#0A0A0A]">
       <div className="text-center">
         <h2 className="text-white mb-4">Contato</h2>
       </div>
@@ -38,7 +40,7 @@ export const Contact = () => {
 
           <div>
             <h4 className="text-white mb-1">WhatsApp</h4>
-            <p className="text-[#A0A0A0]">(41) 99576-8610</p>
+            <p className="text-[#A0A0A0]">(41) 99545-8967</p>
           </div>
         </div>
 
@@ -46,13 +48,13 @@ export const Contact = () => {
           <Button
             variant="primary"
             onClick={() =>
-              window.open("https://wa.me/5541995768610", "_blank")
+              window.open("https://wa.me/5541995458967", "_blank")
             }
             className="w-full bg-yellow-primary"
           >
             <div className="flex items-center justify-center gap-2">
               <Phone size={18} />
-              Chamar no WhatsApp agora
+              Agendar no WhatsApp
             </div>
           </Button>
         </div>

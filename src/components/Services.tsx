@@ -46,7 +46,8 @@ export const Services = () => {
 
 
     return (
-        <section className="py-16 lg:py-24 bg-[#0A0A0A]">
+        <section id="services"
+        className="py-16 lg:py-24 bg-[#0A0A0A]">
             <div className="max-w-360 mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center ">
                     <h2 className="text-white mb-4">Serviços</h2>
@@ -66,7 +67,7 @@ export const Services = () => {
                 <div className="flex justify-center pt-8">
                     <Button 
                     variant="primary"
-                    onClick={() => window.open("https://wa.me/5541995768610", "_blank")}
+                    onClick={() => window.open("https://wa.me/5541995458967", "_blank")}
                     className="cursor-pointer"
                     >
                         Agende seu horário

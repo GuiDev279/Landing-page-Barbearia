@@ -1,9 +1,10 @@
 
 import Header  from "./components/shared/Header"
 import Footer from "./components/shared/Footer"
-import HeroPage from "./components/Hero"
+import { Hero } from "./components/Hero"
 import { Services } from "./components/Services"
 import { Contact } from "./components/Contact"
+import WhatsAppButton from "./components/shared/WhatsAppButton"
 
 function App() {
   
@@ -11,7 +12,8 @@ function App() {
     <div>
       <Header />
       <main>
-        <HeroPage />
+        <Hero />
+        <WhatsAppButton/>
         <Services />
         <Contact />
       </main>
