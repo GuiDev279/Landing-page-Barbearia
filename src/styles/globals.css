@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+
+@theme {
+    --color-yellow-primary: #d4af37;
+}
